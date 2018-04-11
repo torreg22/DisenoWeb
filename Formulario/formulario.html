@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <title>Formulario</title>
-<style>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Formulario</title>
+    <style>
       body {
         width: 80%;    
         margin: 0 auto;
@@ -89,64 +89,75 @@
         display: block;
         width: 100%;
       }
-</style>
-</head>
-<body>
+</style> </head>
+  <body>
     <header>
       <h1>BIENVENIDO A NUESTRA WEB!</h1>
-      <picture><img src="../imagenes/logotipo.jpg" alt="logotipo de mi empresa"></picture>
-    </header>
-    <nav> <a href="ejerciciosTema2/nosotros.html">Nosotros</a> <a href="ejerciciosTema2/nuestrosServicio.html">Nuestros Servicios</a> <a href="../index.html">Atras</a> </nav>
+      <picture><img src="../imagenes/imagenes12.jpg"></picture> </header>
+    <nav> <a href="ejerciciosTema2/nosotros.html">Nosotros</a> <a href="ejerciciosTema2/nuestrosServicio.html">Nuestros
+        Servicios</a> <a href="../index.html">Atras</a> </nav>
     <section>
       <header>
         <h1>TU OPINION CUENTA</h1>
       </header>
       <article>
         <h3>Rellena con sinceridad</h3>
-    <form method="post" action="mailto:ejemplo@hotmail.com">
-     <fieldset>
-       <legend>
-       Datos  Primarios  
-       </legend>
-               
-    
-      <p>
-      <label for="nombrePropio2">Pon tu nombre propio</label>
-    <input name="nombrePropio" id="nombrePropio2" required="" autofocus="" type="text">
-       </p>
-        <p>
-      <label for="correo">Pon tu correo</label>
-    <input name="correo" id="correo" type="email">
-       </p>
-      <p>
-       Pon observaciones
-      </p>
-      </fieldset>
-      <label for="observacoiones"></label>
-      <textarea name="observaciones" id="observaciones "></textarea>
-      <input value="Envio" type="submit">
-        </form>    
+        <form method="post" action="mailto:ejemplo@hotmail.com">
+          <fieldset> <legend> Datos Primarios </legend>
+            <p> <label for="nombrePropio2">Pon tu nombre propio</label> <input
+
+                name="nombrePropio" id="nombrePropio2" required="" autofocus=""
+
+                type="text"> </p>
+            <p> <label for="correo">Pon tu correo</label> <input name="correo"
+
+                id="correo" type="email"> </p>
+            <p> Pon observaciones </p>
+          </fieldset>
+          <label for="observacoiones"></label> <textarea name="observaciones" id="observaciones "></textarea>
+          <input value="Envio" type="submit"> </form>
       </article>
     </section>
-  <div>
-    <p>
-     <h4>
-       ¿Que deseas que te envie?
-    </h4> 
-    </p>
-    <p>
-      <input name:""="" id""="" type="checkbox">
-      <label for="">Ser rico</label><br>
-      <input name:""="" id""="" type="checkbox">
-      <label for="">Ser famoso</label><br>
-      <input name:""="" id""="" type="checkbox">
-      <label for="">Ser inteligente</label><br>
-      <input name:""="" id""="" type="checkbox">
-      <label for="">Otros..</label><br>
-    </p>
-  </div>
+    <div>
+      <p> </p>
+      <h4> ¿Que deseas que te envie? </h4>
+      <p></p>
+      <p> <input name="rico" id="rico" type="checkbox"> <label for="">Ser rico</label><br>
+        <input name="famoso" id="famoso" type="checkbox"> <label for="">Ser
+          famoso</label><br>
+        <input name="inteligente" id="intiligente" type="checkbox"> <label for="inteligente">Ser
+          inteligente</label><br>
+        <input name="otro" id="otro" type="checkbox"> <label for="otro">Otros..</label><br>
+      </p>
+    </div>
+    <div>
+      <p> ¿Que deseas que te envie? </p>
+      <p>
+        <select>
+          <option value="Rico">Rico</option>
+          <option value="Famoso">Famoso</option>
+        </select>
+      </p>
+    </div>
+
+    <div>
+      <p> ¿Que deseas que te envíe? </p>
+      <p>
+        <select>
+          <optgroup label="Rico o famoso">
+            <option value="Rico">Rico</option>
+            <option value="Famoso">Famoso</option>
+          </optgroup>
+          <optgroup label="grado de listeza">
+            <option value="listo">Inteligente</option>
+            <option value="maslisto">Más inteligente</option>
+          </optgroup>
+        </select>
+         </p>
+    </div>
     <footer>
       <p>Copyright</p>
       <p>Social Media Links</p>
     </footer>
-</body></html>
+  </body>
+</html>
